@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Water Sort Puzzle</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>🧪 Water Sort Puzzle</h1>
+
+<div class="controls">
+<button onclick="pauseGame()">Pause</button>
+<button onclick="resumeGame()">Resume</button>
+<button onclick="restartLevel()">Restart</button>
+</div>
+
+<div id="levels"></div>
+
+<div id="game"></div>
+
+<div id="pauseScreen">
+Game Paused
+<button onclick="resumeGame()">Resume</button>
+</div>
+
+<audio id="pourSound" src="pour.mp3"></audio>
+
+<script src="script.js"></script>
+
+</body>
+</html>
